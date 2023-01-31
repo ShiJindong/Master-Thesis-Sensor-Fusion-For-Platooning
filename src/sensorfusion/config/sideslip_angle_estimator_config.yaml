@@ -1,0 +1,32 @@
+SideslipAngleEstimator:
+  # Process noise variance of longitudinal acceleration
+  ax_process_noise_var: 1.0
+  # Process noise variance of lateral acceleration
+  ay_process_noise_var: 1.0
+  # Process noise variance of yaw acceleration (dot of yaw rate)
+  wz_dot_process_noise_var: 5.0
+
+  # Measurement noise variance of lateral acceleration from IMU
+  ay_IMU_noise_var: 5e-1
+  # Measurement noise variance of longitudinal velocity from Velocity Estimator
+  vx_estimated_noise_var: 1e-4
+  # Measurement noise variance of yaw rate from IMU
+  wz_IMU_noise_var: 1e-4
+
+
+  # UKF Tuning Parameters
+  # alpha determines the spread of the sigma points around state mean and is usually set to a small positive value (0 < alpha < 1, e.g., 1e-3).
+  alpha: 1e-3
+  # kappa is a secondary scaling parameter, which is usually set to 0
+  kappa: 0.0
+  # rho is used to incorporate prior knowledge of the states distribution (for Gaussian distributions, rho = 2 is optimal)
+  rho: 2.0
+  
+
+  # Absolute Value Threshold of longitudinal velocity
+  vx_threshold: 0.5
+
+  # Initial State Covariance Matrix
+  P0: [ 1.0, 0.0, 0.0, 
+        0.0, 1.0, 0.0,
+        0.0, 0.0, 1.0]

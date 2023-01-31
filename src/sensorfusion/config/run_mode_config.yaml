@@ -1,0 +1,13 @@
+RunMode:
+  # 1: use   0: dont use  
+  use_lidar: 1
+  use_camera: 1
+  use_V2V_communication: 1
+
+
+  # Available Aruco Concepts: 
+  # 1. One Big aruco marker concept (OB)
+  # 2. One Big and Two Small aruco markers concept (OBTS)
+  # 3. Multiple Small aruco markers (MS)
+  # Hier we only use and test OBTS, the noice covariance matrix is noly determined for OBTS.
+

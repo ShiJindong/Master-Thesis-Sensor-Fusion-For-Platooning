@@ -1,0 +1,49 @@
+binwidth=0.005
+
+> 0.2 m
+ratio_outliers of  Schätzfehler von dx_lidar  =  0.020270928759380177
+ratio_outliers of  Schätzfehler von dx_camera =  0.07621089562420817
+ratio_outliers of  Schätzfehler von dx_fusion  = 0.0007796511061300068
+
+
+> 0.5 m
+ratio_outliers of  Schätzfehler von dx_lidar  =  0.011353669233018225
+ratio_outliers of  Schätzfehler von dx_camera =  0.07236136828769126
+ratio_outliers of  Schätzfehler von dx_fusion  = 0.0005847383295975051
+
+
+
+
+
+
+binwidth=0.005
+
+> 0.2 m
+ratio_outliers of  Schätzfehler von dy_lidar  =  0.04502485137900789
+ratio_outliers of  Schätzfehler von dy_camera  =  0.06778091803917746
+ratio_outliers of  Schätzfehler von dy_fusion  =  0.011256212844751973
+
+
+> 0.5 m
+ratio_outliers of  Schätzfehler von dy_lidar  =  0.013302796998343242
+ratio_outliers of  Schätzfehler von dy_camera  =  0.03908001169476659
+ratio_outliers of  Schätzfehler von dy_fusion  =  0.0
+
+
+
+
+binwidth=0.005
+> 0.1 rad
+ratio_outliers of  Schätzfehler von dphi_lidar  =  0.032014423545463404
+ratio_outliers of  Schätzfehler von dphi_camera  =  0.0686092973394406
+ratio_outliers of  Schätzfehler von dphi_fusion  =  0.0
+
+
+> 0.2 rad
+ratio_outliers of  Schätzfehler von dphi_lidar  =  0.022220056524705194
+ratio_outliers of  Schätzfehler von dphi_camera  =  0.035230484358249686
+ratio_outliers of  Schätzfehler von dphi_fusion  =  0.0
+
+
+
+

@@ -1,0 +1,33 @@
+  # Position Info of Bus:
+  # Position of Center of Gravity x/y/z [m]:  6.299       0.0         1.021
+  # Position of Front Wheel x/y/z [m]:        9.19     +/-1.047       0.307
+  # Position of Rear Wheel x/y/z [m]:         3.39     +/-1.05        0.307
+  # Overall Inertia Tensor [kg.m^2]:          
+  #                                           13843.977   0.0        -694.537
+  #                                           0.0         118722.269  0.0
+  #                                          -694.537     0.0         119975.015 
+
+
+VehicleParamters:
+  # Vehicle weight [kg]
+  m: 15597.98
+  # Vehicle rotational inertia [kg*m^2]
+  Iz: 119975.015
+
+  # Radius of front tires and rear tires
+  wheel_radius_front: 0.382505
+  wheel_radius_rear: 0.380646
+
+  # Absolute Distance [m] between front axle and vehicle center of gravity = 9.19 - 6.299 = 2.891 m
+  lf: 2.891
+  # Absolute Distance [m] between rear axle and vehicle center of gravity = 6.299 - 3.39 = 2.909 m
+  lr: 2.909
+
+  # Half track width of front axle and rear axle [m]
+  half_track_front: 1.05
+  half_track_rear: 1.05
+
+  # Cornering stiffnesses [N/rad] of the front tire 
+  Cf: 2.0e5
+  # Cornering stiffnesses [N/rad] of the rear tire 
+  Cr: 2.0e5

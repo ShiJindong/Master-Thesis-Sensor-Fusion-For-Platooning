@@ -1,0 +1,17 @@
+VelocityEstimator:
+  # Step size of collected past wheel data
+  step_size: 20
+
+  # Threshold for wheel rotation rate change [rad/s] criterion
+  wheel_rot_rate_change_threshold: 2.0
+  # Threshold for wheel velocity pre-estimation deviation [m/s] criterion
+  velocity_deviation_threshold: 0.4
+
+  # Process Noise Covariance
+  Q: [ 100.0, 0.0,
+        0.0, 0.1]
+  # Measurement Noise Covariance
+  R: 0.1
+  # Initial State Covariance Matrix
+  P0: [ 1.0, 0.0,
+        0.0, 1.0]

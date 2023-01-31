@@ -1,0 +1,38 @@
+RelPoseEstimator:
+  # Process Noise Variance of Longitudinal Acceleration
+  ax_process_noise_var: 1.0
+  # Process Noise Variance of Yaw Acceleration
+  wz_dot_process_noise_var: 5.0
+  # Process Noise Variance of Sideslip velocity
+  beta_dot_process_noise_var: 1.0
+
+  # Measurement Noise Variance of Relative Pose calculated by Lidar-Tracker
+  lidar_dx_noise_var: 2e-1
+  lidar_dy_noise_var: 1e-1
+  lidar_dphi_noise_var: 5e-2
+
+  # Measurement Noise Variance of Relative Pose calculated by Camera-Tracker (When 3 Aruco Markers are Detected by Camera-Tracker)
+  camera_dx_noise_var: 3e-1
+  camera_dy_noise_var: 5e-2
+  camera_dphi_noise_var: 5e-2
+
+  # Measurement Noise Variance of Leadbus states
+  # Noise Variance of estimated Longitudinal Velocity by Speed Estimator
+  vx_estimated_noise_var: 1e-4
+  # Noise Variance of measured Yaw Rate from IMU
+  wz_IMU_noise_var: 1e-4
+  # Noise Variance of measured Longitudinal Acceleration from IMU
+  ax_IMU_noise_var: 8e-1
+  # Noise Variance of estimated Sideslip Angle by Sideslip Angle Estimator
+  beta_estimated_noise_var: 1e-2
+
+  # Diagonal Elements of Initial State Covariance Matrix P0
+  P0_diag: [ 1.0, 1.0, 1.0, 0.1, 0.1, 0.1, 0.1 ]
+
+  # UKF Tuning Parameters
+  # alpha determines the spread of the sigma points around state mean and is usually set to a small positive value (0 < alpha < 1, e.g., 1e-3).
+  alpha: 1e-3
+  # kappa is a secondary scaling parameter, which is usually set to 0
+  kappa: 0.0
+  # rho is used to incorporate prior knowledge of the states distribution (for Gaussian distributions, rho = 2 is optimal)
+  rho: 2.0

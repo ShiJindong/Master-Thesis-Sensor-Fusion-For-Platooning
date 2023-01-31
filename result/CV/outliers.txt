@@ -1,0 +1,41 @@
+binwidth=0.005
+
+> 0.2 m
+ratio_outliers of  Schätzfehler von dx_camera  =  0.07661686652250835
+ratio_outliers of  Schätzfehler von dx_fusion  = 0.002309809317869078
+
+
+> 0.5 m
+ratio_outliers of  Schätzfehler von dx_camera  =  0.07307843522704933
+ratio_outliers of  Schätzfehler von dx_fusion  = 0.0005897385492431689
+
+
+
+binwidth=0.005
+
+> 0.2 m
+ratio_outliers of  Schätzfehler von dy_camera  =  0.0682622370748968
+ratio_outliers of  Schätzfehler von dy_fusion  =  0.029830941615883625
+
+
+> 0.5 m
+ratio_outliers of  Schätzfehler von dy_camera  =  0.03941419304108512
+ratio_outliers of  Schätzfehler von dy_fusion  =  0.0
+
+
+
+
+binwidth=0.005
+> 0.1 rad
+ratio_outliers of  Schätzfehler von dphi_camera  =  0.06929427953607234
+ratio_outliers of  Schätzfehler von dphi_fusion  =  0.0
+
+
+> 0.2 rad
+ratio_outliers of  Schätzfehler von dphi_camera  =  0.03558089247100452
+ratio_outliers of  Schätzfehler von dphi_fusion  =  0.0
+
+
+
+
+
