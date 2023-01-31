@@ -1,5 +1,6 @@
 # Relative Positioning with LiDAR, Camera, IMU and Vehicle Date Fusion for Platooning
-This repository contains code for a UKF based relative pose estimator between two vehicles in urban platooning, which fuses the detected relative pose by lidar and camera, as well as the IMU and vehicle data. The Algorithm is implemented in C++ and integrated in the simulation platform CarMaker 11.0. 
+This repository contains codes for a UKF based relative pose estimator between two vehicles in urban platooning, which fuses the detected relative pose by lidar and camera, as well as the IMU and vehicle data. The basic fusion concept is shown in following image. The Algorithm is implemented in C++ and integrated in the simulation platform CarMaker 11.0. 
+![](support_files/images/basic_concept.png)
 
 This project is my master thesis and based on the following previous student work in institute ITIV of KIT:
 - Patrick-Leon Mueller, "Lidar Tracker for Detection and Tracking of the Vehicle in Front for Platooning"
@@ -20,7 +21,7 @@ This project is my master thesis and based on the following previous student wor
        RSDS_CameraClient.c
   ```
 
-Because these files are not my work, they would not be put in this repository and be published on Github.
+Because these source files do not belong to my work, they would not be put in this repository.
 
 ## 1. Prerequisites
 1.1. [Ubuntu 20.04](https://releases.ubuntu.com/focal/)
