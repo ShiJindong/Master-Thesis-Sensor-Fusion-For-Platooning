@@ -21,7 +21,7 @@ This project is my master thesis and based on the following previous student wor
        RSDS_CameraClient.c
   ```
 
-Because these source files do not belong to my work, they would not be put in this repository.
+The source files above would be used as Lidar Tracker and Camera Tracker in my fusion concept. Because these files do not belong to my work, they would not be put in this repository.
 
 ## 1. Prerequisites
 1.1. [Ubuntu 20.04](https://releases.ubuntu.com/focal/)
