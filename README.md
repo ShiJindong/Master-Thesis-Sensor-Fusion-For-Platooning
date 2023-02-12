@@ -1,4 +1,4 @@
-# Relative Positioning with LiDAR, Camera, IMU and Vehicle Date Fusion for Platooning ([pdf](paper/Masterthesis_DE_Jindong_Shi.pdf))
+# Relative Positioning with LiDAR, Camera, IMU and Vehicle Date Fusion for Platooning ([pdf](support_files/paper/Masterthesis_DE_Jindong_Shi.pdf))
 This repository contains codes for a UKF based relative pose estimator between two vehicles in urban platooning, which fuses the detected relative pose by lidar and camera, as well as the IMU and vehicle data. The basic fusion concept is shown in following image. The Algorithm is implemented in C++ and integrated in the simulation platform CarMaker 11.0. 
 ![](support_files/images/basic_concept.png)
 
