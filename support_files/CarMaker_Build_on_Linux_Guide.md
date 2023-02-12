@@ -1,4 +1,4 @@
-# Build CarMaker Project on Ubuntu 20.04 using "GCC"
+# Build CarMaker Project on Ubuntu 20.04 using "Makefile"
 1. Change the file "src/Makefile"
 	- Change the include path of CarMaker files
 		```shell script

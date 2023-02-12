@@ -1,4 +1,4 @@
-# Relative Positioning with LiDAR, Camera, IMU and Vehicle Date Fusion for Platooning
+# Relative Positioning with LiDAR, Camera, IMU and Vehicle Date Fusion for Platooning ([pdf](paper/Masterthesis_DE_Jindong_Shi.pdf))
 This repository contains codes for a UKF based relative pose estimator between two vehicles in urban platooning, which fuses the detected relative pose by lidar and camera, as well as the IMU and vehicle data. The basic fusion concept is shown in following image. The Algorithm is implemented in C++ and integrated in the simulation platform CarMaker 11.0. 
 ![](support_files/images/basic_concept.png)
 
@@ -23,6 +23,7 @@ This project is my master thesis and based on the following previous student wor
 
 The source files above would be used as Lidar Tracker and Camera Tracker in my fusion concept. Because these files do not belong to my work, they would not be put in this repository.
 
+
 ## 1. Prerequisites
 1.1. [Ubuntu 20.04](https://releases.ubuntu.com/focal/)
 
@@ -40,7 +41,6 @@ The source files above would be used as Lidar Tracker and Camera Tracker in my f
 ```
 1.4. NVIDIA Graphic Card with Compute Capability >= 5.0 is required for LidarRSI
 - Check the Compute Capability of your Graphic Card [hier](https://developer.nvidia.com/cuda-gpus) 
-- Recommended Graphic Card can be found in "ReleaseNotes.pdf" of CarMaker 11.0
 
 1.5. License for CarMaker and SimNet
 
@@ -48,7 +48,7 @@ The source files above would be used as Lidar Tracker and Camera Tracker in my f
 - Please read [Extern_Libraries_Guide.md](support_files/Extern_Libraries_Guide.md)
 
 ## 2. Build CarMaker Simulation Project on Ubuntu 20.04
-2.1. Here we use GCC to build this carmaker project on linux systems
+2.1. Here we use Makefile to build this carmaker project on linux systems
 - Please read [CarMaker_Build_on_Linux_Guide.md](support_files/CarMaker_Build_on_Linux_Guide.md)
   
 2.2. Another way for building carmaker project on linux is using [Eclipse IDE for C/C++ Developers](https://www.eclipse.org/downloads/packages/) as IDE
